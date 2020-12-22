@@ -22,7 +22,7 @@ int main(){
     //读取服务器传回的数据
     char buffer[40];
     while(1){
-        read(sock, buffer, sizeof(buffer)-1);
+        printf("read byte:%zd, ",read(sock, buffer, sizeof(buffer)));
         printf("Message form server: %s\n", buffer);
     }
 
