@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/cnlab7.dir/server.c.o  -o cnlab7 
